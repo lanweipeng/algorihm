@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var arr = [8, 2];
+
+        // console.log(quickSort(arr))
+        // 原地快排 改进额外空间的缺点
+        function quickSort2(arr) {
+            if (arr === undefined) {
+                return []
+            } else if (arr && arr.length == 1) {
+                return [...arr]
+            }
+            let flag = arr[0];
+            let i = 1;
+            let j = arr.length - 1;
+
+            while (i < j) {
+                while (arr[i] <= flag && i < j) {
+                    i++
+                }
+                while (arr[j] > flag && i < j) {
+                    j--
+                }
+                if (i < j)
+                    [arr[i], arr[j]] = [arr[j], arr[i]]
+            }
+            // if (arr[0] > arr[i])
+            [arr[0], arr[i]] = [arr[i], arr[0]];
+            // console.log(arr[0], i, j);
+
+            console.log(arr.slice(0, i), flag, arr.slice(i + 1));
+            return [].concat(quickSort2(arr.slice(0, i))).concat(flag).concat(quickSort2(arr.slice(i + 1)))
+        }
+        console.log(quickSort2(arr))
+    </script>
+</body>
+
+</html>
