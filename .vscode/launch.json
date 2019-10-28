@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/剑指offer/合并两个排序的链表.js"
+            "program": "${workspaceFolder}/剑指offer/二叉搜索树的后序遍历序列.js"
         }
     ]
 }

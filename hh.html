@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {}
+
+        .left,
+        .right {
+            float: left;
+            background-color: #ff0;
+            width: 200px;
+            height: 200px;
+        }
+
+        main {
+            width: 100%;
+            background-color: #f00;
+            height: 200px;
+            float: left;
+        }
+
+        .main_w {
+            padding: 0 200px;
+        }
+
+        .left {
+            margin-left: -100%;
+        }
+
+        .right {
+            margin-left: -200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <div class="main_w">zj</div>
+        </main>
+        <aside class="left">left</aside>
+        <aside class="right">right</aside>
+    </div>
+</body>
+
+</html>

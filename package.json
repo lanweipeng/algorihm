@@ -1,0 +1,38 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "算法知识点与算法题",
+  "main": "2search.js",
+  "dependencies": {
+    "_js-tokens@4.0.0@js-tokens": "^4.0.0",
+    "_object-assign@4.1.1@object-assign": "^4.1.1",
+    "_loose-envify@1.4.0@loose-envify": "^1.4.0",
+    "_prop-types@15.7.2@prop-types": "^15.7.2",
+    "_react-dom@16.10.2@react-dom": "^16.10.2",
+    "js-tokens": "^4.0.0",
+    "loose-envify": "^1.4.0",
+    "object-assign": "^4.1.1",
+    "prop-types": "^15.7.2",
+    "_react-is@16.10.2@react-is": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-is": "^16.10.2",
+    "react": "^16.10.2",
+    "scheduler": "^0.16.2",
+    "_scheduler@0.16.2@scheduler": "^0.16.2",
+    "_react@16.10.2@react": "^16.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanweipeng/algorihm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanweipeng/algorihm/issues"
+  },
+  "homepage": "https://github.com/lanweipeng/algorihm#readme"
+}
